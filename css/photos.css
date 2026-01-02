@@ -1,0 +1,192 @@
+/*Main styling (all 3 pages)*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    font-family: "Stack Sans Headline";
+}
+
+body {
+    font-family: "Nunito";
+}
+
+html {
+    font-size: 16px;
+}
+
+article {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    line-height: 200px;
+    font-size: 2.5em;
+    padding-left: 25px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+table,
+tr,
+td {
+    border: solid 3px;
+    border-collapse: collapse;
+    margin: 25px;
+    padding: 10px;
+}
+
+img {
+    border-radius: 0.3rem;
+}
+
+a {
+    display: inline-block;
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    margin: 0.3rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*Styling for Sport Photography*/
+html.sport header {
+    background-color: rgba(47, 161, 44, 1);
+    color: white;
+}
+
+html.sport body {
+    background-color: #cbb69d;
+    color: white;
+}
+
+html.sport footer {
+    background-color: #57594f;
+    color: white;
+    padding: 25px;
+}
+
+html.sport a {
+    font-weight: bold;
+    color: white;
+    background-color: #2fa12c;
+}
+
+html.sport a:hover {
+    color: #2fa12c;
+    background-color: #f2e527;
+}
+
+html.sport a:focus {
+    color: black;
+    background-color: #eaded1;
+}
+
+html.sport a:active {
+    text-decoration: underline;
+}
+
+html.sport ::selection {
+    color: #2fa12c;
+    background-color: #f2e527;
+}
+
+/*Styling for Landscape Photography*/
+html.landscape header {
+    background-color: rgba(115, 108, 13, 1);
+    color: white;
+}
+
+html.landscape body {
+    background-color: #dedede;
+    color: black;
+}
+
+html.landscape footer {
+    background-color: #40352c;
+    color: white;
+    padding: 25px;
+}
+
+html.landscape a {
+    font-weight: bold;
+    color: white;
+    background-color: #736c0d;
+}
+
+html.landscape a:hover {
+    color: white;
+    background-color: #262401;
+}
+
+html.landscape a:focus {
+    color: #736c0d;
+    background-color: #e9ecf2;
+}
+
+html.landscape a:active {
+    text-decoration: underline;
+}
+
+html.landscape ::selection {
+    color: white;
+    background-color: #736c0d;
+}
+
+/*Styling for Architectural Photography*/
+html.architectural header {
+    background-color: rgba(140, 85, 53, 1);
+    color: white;
+}
+
+html.architectural body {
+    background-color: #dedede;
+    color: black;
+}
+
+html.architectural footer {
+    background-color: #401e01;
+    color: white;
+    padding: 25px;
+}
+
+html.architectural a {
+    font-weight: bold;
+    color: white;
+    background-color: #8c5637;
+}
+
+html.architectural a:hover {
+    color: #262401;
+    background-color: #eaded1;
+}
+
+html.architectural a:focus {
+    color: white;
+    background-color: #262401;
+}
+
+html.architectural a:active {
+    text-decoration: underline;
+}
+
+html.architectural ::selection {
+    color: white;
+    background-color: #8c5637;
+}

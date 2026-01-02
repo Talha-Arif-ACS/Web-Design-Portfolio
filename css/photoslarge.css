@@ -1,0 +1,78 @@
+/*Main styling (all 3 pages)*/
+h1,
+.link,
+td,
+footer p {
+    text-align: left;
+}
+
+div {
+    display: inline-block;
+    max-width: 1000px;
+    vertical-align: middle;
+    padding-right: 25px;
+    border-radius: 0.3rem;
+}
+
+.description {
+    max-width: 600px;
+    align-content: center;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+}
+
+/*Styling for Sport Photography*/
+html.sport tr {
+    border: solid 3px green;
+    background-color: #2fa12c;
+}
+
+html.sport td {
+    border: solid 3px green;
+    background-color: #eaded1;
+    color: #57594f;
+}
+
+html.sport .description {
+    background-color: #eaded1;
+    border-left: solid 5px #2fa12c;
+    color: #57594f;
+}
+
+/*Styling for Landscape Photography*/
+html.landscape tr {
+    border: solid 3px #736c0d;
+    background-color: #736c0d;
+    color: white;
+}
+
+html.landscape td {
+    border: solid 3px #736c0d;
+    background-color: #e9ecf2;
+    color: #736c0d;
+}
+
+html.landscape .description {
+    background-color: #e9ecf2;
+    border-left: solid 5px #736c0d;
+    color: #736c0d;
+}
+
+/*Styling for Architectural Photography*/
+html.architectural tr {
+    border: solid 3px #8c5637;
+    background-color: #8c5637;
+    color: white;
+}
+
+html.architectural td {
+    border: solid 3px #8c5637;
+    background-color: #eaded1;
+    color: #401e01;
+}
+
+html.architectural .description {
+    background-color: #eaded1;
+    border-left: solid 5px #8c5637;
+    color: #401e01;
+}

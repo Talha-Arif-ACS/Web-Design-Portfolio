@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stack-sans {
+    font-family: "Stack Sans Text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nunito-sans {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+    background-color: #0a0f14;
+    color: white;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 110px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #293b4a;
+    color: white;
+    padding: 25px;
+}
+
+::selection {
+    background-color: #51687a;
+    color: #e2e2e2;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background: linear-gradient(rgba(41, 59, 74, 0.3), rgba(41, 59, 74, 0.3)),
+        url(../images/pexels-danbuilds-633409.jpg);
+    background-size: cover;
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 20% 100%, 0 80%);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    height: 300px;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    padding: 0.3rem;
+}
+
+header p {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1,
+h2 {
+    font-family: "Stack Sans Text", sans-serif;
+}
+
+.project {
+    background-color: rgba(44, 67, 85, 0.78);
+    color: white;
+    text-align: left;
+    margin: 1.2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+div img,
+h2,
+p {
+    padding: 0.4rem;
+}
+
+div img {
+    border-radius: 8px;
+}
+
+span {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+}
+
+.home-link:hover {
+    color: #527590;
+}
+
+.home-link {
+    margin-bottom: 5px;
+}
+
+footer a:focus,
+.home-link:focus {
+    background-color: #51687a;
+    color: white;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.combined {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.combined:hover img {
+    filter: grayscale(100%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 260px;
+}
+
+.overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-transform: uppercase;
+}
+
+.lock-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(10, 15, 20, 0.95);
+    color: white;
+    text-align: center;
+    visibility: visible;
+    opacity: 1;
+}
+
+.lock-styling {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.lock-overlay i {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.lock-overlay h3 {
+    font-family: "Stack Sans Text", sans-serif;
+    padding: 0.5rem;
+}
+
+.project.upcoming {
+    position: relative;
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .project {
+        overflow: hidden;
+    }
+
+    .project .combined {
+        float: left;
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .project.right .combined {
+        float: right;
+        margin-left: 2%;
+        margin-right: 0;
+    }
+
+    .project .text {
+        float: left;
+        width: 58%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .project {
+        width: 31%;
+        float: left;
+        margin: 1%;
+        min-height: 375px;
+    }
+
+    .project .combined,
+    .project .text {
+        float: none;
+        width: 100%;
+    }
+
+    .project .combined {
+        margin-bottom: 1rem;
+    }
+
+    .project.upcoming {
+        clear: both;
+        display: block;
+        width: 98%;
+        margin: 1%;
+        position: relative;
+    }
+
+    .project.upcoming:hover .lock-overlay {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .project.upcoming .combined img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .project.upcoming .combined {
+        float: right;
+        width: 40%;
+        margin-left: 2%;
+        margin-right: 0;
+        max-height: 280px;
+        overflow: hidden;
+    }
+
+    .project.upcoming .text {
+        float: left;
+        width: 58%;
+    }
+
+    .home-link {
+        display: inline-block;
+        clear: both;
+    }
+}

@@ -1,0 +1,151 @@
+h1,
+h2 {
+    font-family: "Poppins", serif;
+    font-weight: bold;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f7f6;
+    color: black;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+header,
+footer {
+    background-color: #602c86;
+    color: white;
+}
+
+header img {
+    max-width: 100px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+::selection {
+    background-color: #8f47c5;
+    color: white;
+}
+
+span {
+    color: #8f47c5;
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+ul a {
+    color: #602c86;
+    padding: 0.5rem;
+}
+
+ul a:hover {
+    background-color: #e7e7e7;
+    color: black;
+    font-weight: bold;
+}
+
+ul a:focus,
+ul a:active {
+    background-color: #bcb1c3;
+    color: #8f47c5;
+    font-weight: bold;
+}
+
+header a,
+footer a {
+    color: white;
+}
+
+header a:hover,
+footer a:hover {
+    color: #bcb1c3;
+    font-weight: bold;
+}
+
+header a:focus,
+header a:active,
+footer a:focus,
+footer a:active {
+    color: #8f47c5;
+    font-weight: bold;
+}
+
+section a {
+    text-align: center;
+    background-color: #602c86;
+    color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+section a:hover {
+    background-color: #8f47c5;
+    color: white;
+    font-weight: bold;
+}
+
+section a:focus,
+section a:active {
+    background-color: #bcb1c3;
+    color: #8f47c5;
+    font-weight: bold;
+}
+
+.nav-container,
+.about-section,
+.product {
+    background-color: white;
+    border-radius: 12px;
+    border: solid 1px #dee2e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.product:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product h3 {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 992px) {
+    header a,
+    header h1,
+    footer a {
+        display: inline-block;
+    }
+
+    header h1 {
+        width: 94%;
+        text-align: right;
+        margin: 0;
+    }
+
+    header a {
+        width: 5%;
+        display: inline-block;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
