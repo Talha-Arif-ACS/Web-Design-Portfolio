@@ -3,7 +3,9 @@
 This repository marks the culmination of the HTML and CSS projects that I worked on throughout this semester in my Web
 Design Essentials Course. The objective was to build a robust, well-structured foundation to which advanced design
 principles were progressively applied. Each phase of this project demonstrates mastery of specific learning modules,
-eventually converging into a unified, high-performance homepage. [🚀 View Live Portfolio](YOUR_GITHUB_PAGES_URL_HERE)
+eventually converging into a unified, high-performance homepage.
+
+[🚀 View Live Portfolio](https://talha-arif-acs.github.io/Web-Design-Portfolio/)
 
 ---
 
@@ -54,4 +56,6 @@ completed, they were integrated into a final, polished homepage as the finishing
 
 ## 👤 Contact
 
-Talha Arif https://www.linkedin.com/in/talhaarifmalik/ talha.arif.eu@gmail.com
+-   Talha Arif
+-   https://www.linkedin.com/in/talhaarifmalik/
+-   talha.arif.eu@gmail.com
