@@ -11,7 +11,7 @@ eventually converging into a unified, high-performance homepage.
 
 ## 🖥️ Preview
 
-![Portfolio Design Mockup](mockup.png)
+![Portfolio Design Mockup](mockup.jpg)
 
 ---
 
